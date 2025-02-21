@@ -1,0 +1,51 @@
+env_name: "mpe"
+env_type: "mpe"
+dataset: "simple_spread-medium"
+use_seed_dataset: true
+mpe_seed: 0
+n_agents: 3
+normalizer: "LimitsNormalizer"
+preprocess_fns: []
+max_n_episodes: 50000
+
+discrete_action: false
+termination_penalty: 0.0
+
+discount: 0.99
+
+
+device: "cuda"
+
+
+max_action: 1.0
+beta_schedule: "linear"
+n_timesteps: 10
+
+
+tau: 0.005
+train_batch_size: 1024
+eta: 0.5
+lr: 0.0003
+if_q_separate: True
+
+data_factorization_mode: "concat" 
+noise_factorization_mode: "concat" 
+if_target_q: True
+
+
+eval_iterations: 200
+train_iterations_step: 1000
+
+
+eval_episodes: 10
+seed: 0
+
+
+dir: "results/mpe_spread_medium_dof_hconcat_fconcat_seed0"
+exp_num: 0
+
+
+
+
+
+

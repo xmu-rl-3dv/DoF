@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/mamujoco.egg-info/PKG-INFO
+src/mamujoco.egg-info/SOURCES.txt
+src/mamujoco.egg-info/dependency_links.txt
+src/mamujoco.egg-info/top_level.txt
+src/multiagent_mujoco/__init__.py
+src/multiagent_mujoco/mujoco_multi.py
+src/multiagent_mujoco/multiagentenv.py
+src/multiagent_mujoco/obsk.py

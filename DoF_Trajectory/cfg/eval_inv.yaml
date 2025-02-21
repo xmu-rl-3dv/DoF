@@ -1,0 +1,20 @@
+meta_data:
+  exp_name: "eval_inv"
+  script_path: "run_scripts/evaluate.py"
+  num_workers: 1
+
+variables:
+  log_dir: [
+    ""
+  ]
+
+constants:
+  load_steps: [0, 10000, 20000, 30000, 100000, 200000, 300000, 400000, 500000]
+  num_eval: 10
+  num_envs: 10
+  evaluator: "utils.MADEvaluator"
+  overwrite: True
+  use_ddim_sample: False
+  n_ddim_steps: 15
+  use_consistency_models_sample: False
+  n_consistency_models_steps: 1
