@@ -158,12 +158,14 @@ pip install -e .[tf2_baselines]
 ```
 
 ## Citation
-@inproceedings{dof2025,
+```
+@inproceedings{lidof2025,
   title={DoF: A Diffusion Factorization Framework for Offline Multi-Agent Decision Making},
   author={Li, Chao and Deng, Ziwei and Lin, Chenxing and Chen, Wenqi and Fu, Yongquan and Liu, Weiquan and Wen, Chenglu and Wang, Cheng and Shen, Siqi},
   booktitle={International Conference on Learning Representations},
   year={2025}
 }
+```
 
 ## Acknowledgements
 Our codebase is inspired by the following repositories:
